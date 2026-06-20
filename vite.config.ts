@@ -11,12 +11,6 @@ export default defineConfig({
       "@assets": path.resolve(import.meta.dirname, "src/assets"),
     },
   },
-  build: {
-    outDir: "dist",
-    emptyOutDir: true,
-  },
-  server: {
-    port: 3000,
-    host: "0.0.0.0",
-  },
+  build: { outDir: "dist", emptyOutDir: true },
+  server: { port: 3000, host: "0.0.0.0" },
 });
